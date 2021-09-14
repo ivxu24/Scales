@@ -9,7 +9,7 @@ void scale(int x, int y) {
   //your code here
 }
 
-*/ void setup() {
+/* void setup() {
   size(1500, 1500);
 }
 void draw() {
