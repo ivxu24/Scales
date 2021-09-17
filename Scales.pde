@@ -82,5 +82,49 @@ void scale(int x, int y) {
   endShape();
 
 }
+  fill(156,252,252);
+  bezier(20, 20, 10, 280, 100, 20, 80, 20);
 /*
+void setup() {
+  size(600, 600);
+}
+void draw() {
+  for (int y = 0; y < 600; y+=20)
+    for (int x = 0; x < 900; x+=20)
+      scale(x, y);
+}
+void scale(int x, int y) {
+    fill(156,252,252);
+  bezier(20, 20, 10, 280, 100, 20, 80, 20);
+  int diam = 0;
+  float r = 252;
+  noFill();
+  while (diam < 30) {
+    stroke(r, 0, 0);
+    ellipse(40+x, 40+y, diam, diam);
+    diam++;
+    r-=252/30.0;
+  }
+
+  beginShape();
+  /* 
+   curveVertex(x+30,y+10);
+   curveVertex(x+30,y+10);
+   curveVertex(x+25,y+20);
+   curveVertex(x+10,y+30);
+   curveVertex(x+25,y+40);
+   curveVertex(x+30,y+50);
+   curveVertex(x+30,y+50);
+   endShape();
+   beginShape();
+   curveVertex(x+30,y+10);
+   curveVertex(x+30,y+10);
+   curveVertex(x+35,y+20);
+   curveVertex(x+50,y+30);
+   curveVertex(x+35,y+40);
+   curveVertex(x+30,y+50);
+   curveVertex(x+30,y+50);
+   endShape();
+   */
+}
 
